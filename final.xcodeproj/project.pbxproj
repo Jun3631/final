@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5929A492A379AE96F4395F4F /* Pods_final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8A1743749BDD249CAD5127 /* Pods_final.framework */; };
 		7C63A187279FE46300812868 /* finalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A186279FE46300812868 /* finalApp.swift */; };
 		7C63A189279FE46300812868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A188279FE46300812868 /* ContentView.swift */; };
 		7C63A18B279FE46500812868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C63A18A279FE46500812868 /* Assets.xcassets */; };
 		7C63A18E279FE46500812868 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C63A18D279FE46500812868 /* Preview Assets.xcassets */; };
+		7C63A19927A00FA700812868 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A19827A00FA700812868 /* Video.swift */; };
+		7C63A19B27A0157000812868 /* youtubeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A19A27A0157000812868 /* youtubeUIView.swift */; };
+		7C63A19D27A0559200812868 /* youtubePlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A19C27A0559200812868 /* youtubePlaylistData.swift */; };
+		7C63A1A327A0560100812868 /* youtubeVideoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A1A227A0560100812868 /* youtubeVideoUIView.swift */; };
+		7C63A1A527A1474900812868 /* igUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A1A427A1474800812868 /* igUIView.swift */; };
+		7C63A1A727A1486F00812868 /* igPostUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A1A627A1486F00812868 /* igPostUIView.swift */; };
+		7C63A1A927A1489300812868 /* igData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A1A827A1489300812868 /* igData.swift */; };
+		7C63A1AB27A14CF500812868 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A1AA27A14CF500812868 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,17 @@
 		7C63A188279FE46300812868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C63A18A279FE46500812868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C63A18D279FE46500812868 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C63A19827A00FA700812868 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		7C63A19A27A0157000812868 /* youtubeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubeUIView.swift; sourceTree = "<group>"; };
+		7C63A19C27A0559200812868 /* youtubePlaylistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubePlaylistData.swift; sourceTree = "<group>"; };
+		7C63A1A227A0560100812868 /* youtubeVideoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtubeVideoUIView.swift; sourceTree = "<group>"; };
+		7C63A1A427A1474800812868 /* igUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igUIView.swift; sourceTree = "<group>"; };
+		7C63A1A627A1486F00812868 /* igPostUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igPostUIView.swift; sourceTree = "<group>"; };
+		7C63A1A827A1489300812868 /* igData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = igData.swift; sourceTree = "<group>"; };
+		7C63A1AA27A14CF500812868 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		8E8A1743749BDD249CAD5127 /* Pods_final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E20DD4BC01B67549FEC4C0 /* Pods-final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final.release.xcconfig"; path = "Target Support Files/Pods-final/Pods-final.release.xcconfig"; sourceTree = "<group>"; };
+		DAA1D6A1343462DD870F19DE /* Pods-final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final.debug.xcconfig"; path = "Target Support Files/Pods-final/Pods-final.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5929A492A379AE96F4395F4F /* Pods_final.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +56,11 @@
 		7C63A17A279FE46300812868 = {
 			isa = PBXGroup;
 			children = (
+				7C63A1AA27A14CF500812868 /* SafariView.swift */,
 				7C63A185279FE46300812868 /* final */,
 				7C63A184279FE46300812868 /* Products */,
+				8D7A2487DCF45D2D8863C627 /* Pods */,
+				D7407EBD4BB4FE08DB969327 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +76,14 @@
 			isa = PBXGroup;
 			children = (
 				7C63A186279FE46300812868 /* finalApp.swift */,
+				7C63A19827A00FA700812868 /* Video.swift */,
 				7C63A188279FE46300812868 /* ContentView.swift */,
+				7C63A1A427A1474800812868 /* igUIView.swift */,
+				7C63A1A627A1486F00812868 /* igPostUIView.swift */,
+				7C63A1A827A1489300812868 /* igData.swift */,
+				7C63A19A27A0157000812868 /* youtubeUIView.swift */,
+				7C63A1A227A0560100812868 /* youtubeVideoUIView.swift */,
+				7C63A19C27A0559200812868 /* youtubePlaylistData.swift */,
 				7C63A18A279FE46500812868 /* Assets.xcassets */,
 				7C63A18C279FE46500812868 /* Preview Content */,
 			);
@@ -67,6 +98,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8D7A2487DCF45D2D8863C627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA1D6A1343462DD870F19DE /* Pods-final.debug.xcconfig */,
+				B2E20DD4BC01B67549FEC4C0 /* Pods-final.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7407EBD4BB4FE08DB969327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8A1743749BDD249CAD5127 /* Pods_final.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C63A191279FE46500812868 /* Build configuration list for PBXNativeTarget "final" */;
 			buildPhases = (
+				9E820FEFA998E42C120E109F /* [CP] Check Pods Manifest.lock */,
 				7C63A17F279FE46300812868 /* Sources */,
 				7C63A180279FE46300812868 /* Frameworks */,
 				7C63A181279FE46300812868 /* Resources */,
+				EC43C72125E5A8A120F090FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +182,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E820FEFA998E42C120E109F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-final-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC43C72125E5A8A120F090FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-final/Pods-final-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-final/Pods-final-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-final/Pods-final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C63A17F279FE46300812868 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C63A189279FE46300812868 /* ContentView.swift in Sources */,
+				7C63A1AB27A14CF500812868 /* SafariView.swift in Sources */,
+				7C63A19927A00FA700812868 /* Video.swift in Sources */,
+				7C63A1A527A1474900812868 /* igUIView.swift in Sources */,
+				7C63A1A727A1486F00812868 /* igPostUIView.swift in Sources */,
+				7C63A1A327A0560100812868 /* youtubeVideoUIView.swift in Sources */,
+				7C63A19B27A0157000812868 /* youtubeUIView.swift in Sources */,
 				7C63A187279FE46300812868 /* finalApp.swift in Sources */,
+				7C63A19D27A0559200812868 /* youtubePlaylistData.swift in Sources */,
+				7C63A1A927A1489300812868 /* igData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +363,7 @@
 		};
 		7C63A192279FE46500812868 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA1D6A1343462DD870F19DE /* Pods-final.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -276,7 +377,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,6 +393,7 @@
 		};
 		7C63A193279FE46500812868 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E20DD4BC01B67549FEC4C0 /* Pods-final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,7 +407,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
